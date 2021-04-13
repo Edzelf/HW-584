@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"enc28j60.h": "c",
+			"stm8s.h": "c",
+			"*.inc": "c"
+		}
+	}
+}
