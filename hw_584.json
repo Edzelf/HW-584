@@ -1,0 +1,30 @@
+{
+  "build": {
+    "core": "sduino",
+    "extra_flags": "-DHW_584 -DSTM8S005",
+    "f_cpu": "16000000L",
+    "cpu": "stm8",
+    "mcu": "stm8s005c6",
+    "variant": "hw_584"
+  }, 
+  "frameworks": [
+    "arduino",
+    "spl"
+  ],
+  "debug": {
+    "svd_path": "STM8S005MB.svd",
+    "openocd_target": "stm8s"
+  },
+  "upload": {
+    "maximum_ram_size": 2048,
+    "maximum_size": 32768,
+    "protocol": "serial",
+    "protocols": [
+      "stlinkv2",
+      "serial"
+    ]
+  },
+  "name": "HW-584 Network Board",
+  "url": "",
+  "vendor": "sduino"
+}
